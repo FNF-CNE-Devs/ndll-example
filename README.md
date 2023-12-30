@@ -2,6 +2,10 @@
 
 ## Build instructions:
 
+First clone this repo
+
+Then open cmd or terminal in the repo, and run
+
 For Windows: `lime rebuild . windows`
 
 For Mac: `lime rebuild . mac`
