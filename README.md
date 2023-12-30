@@ -35,7 +35,7 @@ setTransparency(true, 255, 255, 255);
 
 ```hx
 // Untested
-var setTransparency = lime.system.CFFI.load(Assets.getPath("assets/ndlls/ndllexample"), "ndllexample_set_windows_transparent", 4);
+var setTransparency = lime.system.CFFI.load(Assets.getPath("assets/ndlls/ndllexample.ndll"), "ndllexample_set_windows_transparent", 4);
 if(setTransparency == null) setTransparency = function() {}; // anti crash
 // setTransparency(active:Bool, r:Int, g:Int, b:Int);
 
