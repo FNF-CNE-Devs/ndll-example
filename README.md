@@ -13,3 +13,5 @@ For 32 bit add `-32`
 The resulting file will be in `ndll/Platform/ndllexample-platform.ndll`
 
 To change the name go into `project/Build.xml`
+
+The code for the ndll is in `project/common/ExternalInterface.cpp`
