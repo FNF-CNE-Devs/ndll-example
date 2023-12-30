@@ -22,7 +22,7 @@ To change the name go into `project/Build.xml`
 
 The code for the ndll is in `project/common/ExternalInterface.cpp`
 
-## Using in Codename:
+## Usage in Codename:
 
 ```hx
 import funkin.backend.utils.NdllUtil;
@@ -35,7 +35,7 @@ setTransparency(true, 255, 255, 255);
 // This works fine on hscript and using Reflect.callMethod, only on codename tho
 ```
 
-## Using in non-codename projects:
+## Usage in non-codename projects:
 
 ```hx
 // Untested
