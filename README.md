@@ -10,6 +10,8 @@ For Linux: `lime rebuild . linux`
 
 For 32 bit add `-32`
 
+For debug add `-debug`
+
 The resulting file will be in `ndll/Platform/ndllexample-platform.ndll`
 
 To change the name go into `project/Build.xml`
