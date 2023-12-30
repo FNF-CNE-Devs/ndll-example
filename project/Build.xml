@@ -22,8 +22,9 @@
 
 	<set name="DEBUGEXTRA" value="-debug" if="fulldebug" />
 
-	<!-- postfix = ${MSVC_LIB_VERSION}${DEBUGEXTRA}${LIBEXTRA} -->
-	<target id="NDLL" output="${LIBPREFIX}${NDLL_NAME}${CNE_EXT}" tool="linker" toolid="${STD_MODULE_LINK}">
+	<!-- prefix = ${LIBPREFIX} -->
+	<!-- suffix = ${MSVC_LIB_VERSION}${DEBUGEXTRA}${LIBEXTRA} -->
+	<target id="NDLL" output="${NDLL_NAME}${CNE_EXT}" tool="linker" toolid="${STD_MODULE_LINK}">
 		<outdir name="../ndll/${BINDIR}"/>
 		<ext value=".ndll" if="windows || mac || linux"/>
 		<files id="common"/>
