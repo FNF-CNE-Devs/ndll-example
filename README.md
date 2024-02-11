@@ -39,7 +39,7 @@ setTransparency(true, 255, 255, 255);
 
 ```hx
 // For fnf add your ndlls in assets/preload/ndlls/
-var os = #if windows "-windows" #elseif linux "-linux" #elseif macos "-mac" #elseif android "-android" #else "" #end;
+var os = #if windows "-windows" #elseif linux "-linux" #elseif macos "-mac" #elseif android "-android" #elseif ios "-ios" #else "" #end;
 var setTransparency:Dynamic = lime.system.CFFI.load(openfl.utils.Assets.getPath('assets/ndlls/ndllexample' + os + '.ndll'), "ndllexample_set_windows_transparent", 4);
 if(setTransparency == null) setTransparency = function() {}; // anti crash
 // setTransparency(active:Bool, r:Int, g:Int, b:Int);
