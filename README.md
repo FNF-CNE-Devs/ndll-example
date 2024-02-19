@@ -27,6 +27,7 @@ The code for the ndll is in `project/common/ExternalInterface.cpp`
 ```hx
 import funkin.backend.utils.NdllUtil;
 
+// Place ndlls in mods/yourmodname/ndlls/
 var setTransparency = NdllUtil.getFunction("ndllexample", "ndllexample_set_windows_transparent", 4);
 // setTransparency(active:Bool, r:Int, g:Int, b:Int);
 
