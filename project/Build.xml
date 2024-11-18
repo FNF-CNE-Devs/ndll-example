@@ -19,6 +19,7 @@
 	<set name="CNE_EXT" value="-mac" if="mac"/>
 	<set name="CNE_EXT" value="-linux" if="linux"/>
 	<set name="CNE_EXT" value="-android" if="android"/>
+	<set name="CNE_EXT" value="-ios" if="iphoneos"/>
 
 	<set name="DEBUGEXTRA" value="-debug" if="fulldebug" />
 
